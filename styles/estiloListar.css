@@ -1,0 +1,136 @@
+#miProducto{
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 10px;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#773122), to(#EE5A3A));
+
+}
+#miProducto #id{
+    border-bottom: black 1px solid;
+    width: 100%;
+}
+#miProducto #nombre{
+    padding-top: 10px;
+    float: left;
+    width: 35%;
+}
+#miProducto #unidades{
+    padding-top: 10px;
+    float: left;
+    width: 30%;
+
+}
+#miProducto #precio{
+    padding-top: 10px;
+float: left;
+    width: 35%;
+}
+#miProducto #descripcion{
+    padding-top: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+#miProducto #fotoObjeto{
+    padding-top: 10px;
+}
+#miProducto ul{
+    margin-left: -40px;
+    text-align: center;
+    width: 100%;
+    list-style: none;
+
+}
+a #miProducto li {
+
+    color: #0C090A;
+
+}
+#miProducto #carrito{
+    font-size: 20px;
+}
+#miProducto #editar{
+    border-top: 1px solid #0C090A;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    text-align: center;
+
+}
+#miProducto #editar li{
+    margin-top: 20px;
+}
+#miProducto #editar li a{
+    width: 100%;
+}
+@media screen and (max-width: 630px) and (min-width: 335px){
+
+    #listar #contenido{
+        font-size: 20px;
+    }
+    #miProducto #id{
+       font-size: 15px;
+    }
+    #miProducto #nombre{
+        font-size: 15px;
+    }
+    #miProducto #unidades{
+        font-size: 15px;
+    }
+    #miProducto #precio{
+        font-size:15px;
+    }
+    #miProducto #descripcion{
+        font-size: 15px;
+    }
+    #miProducto #carrito{
+        font-size: 15px;
+    }
+    #miProducto #editar li a{
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width: 335px) and (min-width: 280px){
+    #listar #contenido{
+        font-size: 15px;
+    }
+    #listar h1{
+        font-size: 18px;
+    }
+    #listar input[name=buscar]{
+       width: 80px;
+    }
+    #listar input[type=submit]{
+        height: 30px;
+       font-size: 10px;
+    }
+    #miProducto #fotoObjeto img{
+        width: 100px;
+    }
+    #miProducto #id{
+        font-size: 10px;
+    }
+    #miProducto #nombre{
+        font-size: 10px;
+    }
+    #miProducto #unidades{
+        font-size: 10px;
+    }
+    #miProducto #precio{
+        font-size:10px;
+    }
+    #miProducto #descripcion{
+        font-size: 10px;
+    }
+    #miProducto #carrito{
+        font-size: 10px;
+    }
+    #miProducto #editar li a{
+        font-size: 10px;
+    }
+}
+
+

@@ -1,0 +1,604 @@
+#Alta{
+    overflow: hidden;
+    background-image: url("../img/fondo1.jpg");
+    background-size:cover;
+}
+
+.login{
+    background: rgba(225,0,0,0.4);
+    border-radius: 70px;
+    position: relative;
+    width: 99%;
+    text-align: center;
+    margin: 5px;
+    overflow: hidden;
+
+}
+.login h1{
+    color: white;
+    font-size: 40px;
+}
+
+.login form{
+
+}
+
+.login ul{
+
+  list-style: none;
+    display: inline-block;
+   padding: 50px;
+}
+
+.login label{
+    font-family: "Times New Roman", Georgia, sans-serif;
+    display: block;
+    font-size: 20px;
+    text-align: left;
+
+
+}
+.login input {
+    font-family: "Times New Roman", Georgia, sans-serif;
+    font-size: 18px;
+    outline: none;
+    display: block;
+    position: relative;
+
+}
+.login input[name=nombre],
+.login input[name=apellidos],
+.login input[name=email],
+.login input[name=contrasena],
+.login input[id=contrasena2]{
+    color: #743E10;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px
+}
+
+.login button{
+    position: absolute;
+    height: 30px;
+    margin-top: -42px;
+    margin-left: 84px;
+    font-weight: bold;
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CC8664), to(#65412C));
+    border: 1px solid saddlebrown;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+
+#forum{
+
+    float: left;
+    margin-left: 10%;
+
+}
+
+ #pswd_info{
+     width: 45%;
+     float: right;
+     font-size: 20px;
+     background:#DF9979 ;
+     margin-right: 90px ;
+     margin-top: 10px;
+     border-radius:5px;
+     border:1px solid #ddd;
+     box-shadow:4px 4px 3px #FDAE56;
+}
+ #pswd_info li{
+     text-align: left;
+     line-height: 40pt;
+     color:red;
+
+ }
+
+ .login #pswd_info svg {
+     width: 20px;
+ }
+
+ .login #lower{
+
+     clear: left;
+     margin: auto;
+     background:#DF9979;
+     width: 90%;
+     height: 80px;
+     box-shadow: inset 0 1px 1px black;
+     border-top: 1px solid white;
+     border-bottom-right-radius: 3px;
+     border-bottom-left-radius: 3px;
+     overflow: hidden;
+ }
+
+.Login button[id=registrarse] {
+
+    margin-top: 5px;
+    margin-left: -250px;
+    width: 500px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CC8664), to(#65412C));
+    /*background-image: -moz-linear-gradient(top left 90deg, #CC8664 0%, #65412C 100%);
+    background-image: linear-gradient(top left 90deg, #CC8664 0%, #65412C 100%);*/
+    border-radius: 30px;
+    border: 1px solid saddlebrown;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+.Login button[id=registrarse]:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CC8664), to(#65412C));
+    /*background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);*/
+}
+
+.Login button[id=registrarse]:active {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#65412C), to(#CC8664));
+    /*background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+    background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);*/
+}
+
+@media screen and (max-width: 1160px) and (min-width: 926px){
+
+    .login h1{
+        margin-left: -250px;
+    }
+    #forum{
+
+        margin-left: 40px;
+    }
+    .login ul{
+        padding: 0px;
+        margin: 10px;
+    }
+    #pswd_info{
+        position: absolute;
+        margin-left: 450px;
+        margin-top: -20px;
+    }
+    .login button{
+        font-family: "Arial", SansSerif, sans-serif;
+        margin-top: -38px;
+        margin-left: 70px;
+        font-size: 12px;
+    }
+    .login button[id=registrarse]{
+        width: 200px;
+        height: 45px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .login input[name=nombre],
+    .login input[name=apellidos],
+    .login input[name=email],
+    .login input[name=contrasena],
+    .login input[id=contrasena2]{
+        width: 250px;
+        height: 25px;
+    }
+
+}
+@media screen and (max-width: 926px) and (min-width: 750px){
+
+    .login{
+        height: 470px;
+    }
+    .login h1{
+        font-size: 30px;
+    }
+    #forum{
+        margin-left: 20%;
+        margin-top: -90px;
+    }
+    .login input[name=nombre],
+    .login input[name=apellidos],
+    .login input[name=email],
+    .login input[name=contrasena],
+    .login input[id=contrasena2]{
+        width: 250px;
+        height: 25px;
+    }
+    .login button{
+        margin-left: 70px;
+        margin-top: -38px;
+    }
+    #pswd_info{
+        position: absolute;
+        height: 160px;
+        width: 210px;
+        margin-top: 150px;
+        margin-left:500px ;
+    }
+    #pswd_info ul{
+        margin-top: -60px;
+    }
+    #pswd_info li{
+        width: 190px;
+        font-size: 10px;
+        line-height: 20pt;
+        margin-top:-5px;
+        margin-left: -47px;
+    }
+
+    .login #pswd_info svg {
+     width: 10px;
+    }
+    .login h4{
+        font-size: 10px;
+    }
+    .login #lower{
+        height: 50px;
+        margin-left: 40px;
+        margin-top: 325px;
+        position: absolute;
+
+
+     }
+
+    .login button[id=registrarse]{
+        width: 160px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: -70px;
+
+    }
+
+
+
+    }
+@media screen and (max-width: 750px) and (min-width: 558px){
+
+    .login h1{
+        font-size: 17px;
+    }
+    #forum{
+          margin-left: 5%;
+          margin-top: -70px;
+      }
+    .login label{
+        font-size: 15px;
+
+    }
+    .login li{
+        width: 258px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+
+    }
+    .login button{
+        height: 23px;
+        margin-left: 207px;
+        margin-top: 2px;
+        font-family: "Times New Roman", Georgia, sans-serif;
+        font-weight: normal;
+        font-size: 10px;
+        position: absolute;
+        z-index:2;
+    }
+    .login input[name=nombre],
+    .login input[name=apellidos],
+    .login input[name=email],
+    .login input[name=contrasena],
+    .login input[id=contrasena2]{
+        width: 157px;
+        height:13px;
+        font-size: 12px;
+    }
+    #pswd_info{
+        position: absolute;
+        height: 160px;
+        width: 190px;
+        margin-top: 10px;
+        margin-left:340px ;
+    }
+    #pswd_info ul{
+        margin-top: -55px;
+        margin-left: -30px;
+        width: 90px;
+
+    }
+    #pswd_info li{
+        margin-left: -32px;
+        display: inline-block;
+        width: 190px;
+        font-size: 10px;
+        line-height: 14pt;
+
+    }
+    .login #pswd_info svg {
+        width: 10px;
+    }
+    .login h4{
+        font-size: 10px;
+    }
+    .login #lower{
+        height: 37px;
+        margin-left: 25px;
+        margin-top: 180px;
+       position: absolute;
+    }
+    .login button[id=registrarse]{
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+        margin-left: -60px;
+
+    }
+
+}
+@media screen and (max-width: 558px) and (min-width: 460px){
+
+    .login h1{
+        font-size: 17px;
+    }
+    #forum{
+        height: 280px;
+       margin-left: -20px;
+        margin-top: -70px;
+    }
+    .login label{
+        font-size: 12px;
+
+    }
+    .login li{
+        width: 205px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .login button{
+        height: 23px;
+        margin-left: 150px;
+        margin-top: 2px;
+        font-family: "Times New Roman", Georgia, sans-serif;
+        font-weight: normal;
+        font-size: 10px;
+        position: absolute;
+        z-index:2;
+    }
+    .login input[name=nombre],
+    .login input[name=apellidos],
+    .login input[name=email],
+    .login input[name=contrasena],
+    .login input[id=contrasena2]{
+        width: 120px;
+        height:13px;
+        font-size: 12px;
+    }
+    #pswd_info{
+        position: absolute;
+        height: 160px;
+        width: 190px;
+        margin-top: 10px;
+        margin-left:230px ;
+    }
+    #pswd_info ul{
+        margin-top: -55px;
+        margin-left: -30px;
+        width: 90px;
+
+    }
+    #pswd_info li{
+        margin-left: -32px;
+        display: inline-block;
+        width: 190px;
+        font-size: 10px;
+        line-height: 14pt;
+
+    }
+    .login #pswd_info svg {
+        width: 10px;
+    }
+    .login h4{
+        font-size: 10px;
+    }
+    .login #lower{
+        height: 27px;
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 180px;
+        position: absolute;
+    }
+    .login button[id=registrarse]{
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+        margin-left: -60px;
+
+    }
+}
+@media screen and (max-width: 460px) and (min-width: 370px){
+
+    .login h1{
+        font-size: 10px;
+    }
+    #forum{
+        height: 260px;
+        margin-left: -20px;
+        margin-top: -70px;
+    }
+    .login label{
+        font-size: 10px;
+
+    }
+    .login li{
+        width: 180px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .login button{
+        height: 23px;
+        margin-left: 139px;
+        margin-top: 2px;
+        font-family: "Times New Roman", Georgia, sans-serif;
+        font-weight: normal;
+        font-size: 7px;
+        position: absolute;
+        z-index:2;
+    }
+    .login input[name=nombre],
+    .login input[name=apellidos],
+    .login input[name=email],
+    .login input[name=contrasena],
+    .login input[id=contrasena2]{
+        width: 110px;
+        height:10px;
+        font-size: 12px;
+    }
+    #pswd_info{
+        position: absolute;
+        height: 160px;
+        width: 130px;
+        margin-top: -10px;
+        margin-left:205px ;
+    }
+    #pswd_info ul{
+        margin-top: -65px;
+        margin-left: -30px;
+        width: 90px;
+
+    }
+    #pswd_info li{
+        margin-left: -19px;
+        display: inline-block;
+        width: 100px;
+        font-size: 8px;
+        line-height: 14pt;
+
+    }
+    .login #pswd_info svg {
+        width: 8px;
+    }
+    .login h4{
+        margin-top:1px;
+        font-size: 8px;
+    }
+    .login #lower{
+        height: 27px;
+        width: 270px;
+        margin-left: 50px;
+        margin-top: 157px;
+        position: absolute;
+    }
+    .login button[id=registrarse]{
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+        margin-left: -60px;
+
+    }
+}
+@media screen and (max-width: 370px) and (min-width: 280px){
+
+    .login{
+        height: 165px;
+    }
+    .login h1{
+        margin-top: 1px;
+        font-size: 10px;
+    }
+    #forum{
+        height: 260px;
+        margin-left: -20px;
+        margin-top: -85px;
+    }
+    .login label{
+
+        font-size: 10px;
+        text-align: center;
+
+    }
+    .login ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        margin-left: -10px;
+    }
+    .login li{
+
+        width: 70px;
+
+    }
+    .login button{
+        height: 16px;
+        width: 40px;
+        margin-left: 20px;
+        margin-top: 2px;
+        font-family: "Times New Roman", Georgia, sans-serif;
+        font-weight: normal;
+        font-size: 7px;
+        position: absolute;
+        z-index:2;
+    }
+    .login input[name=nombre],
+    .login input[name=apellidos],
+    .login input[name=email],
+    .login input[name=contrasena],
+    .login input[id=contrasena2]{
+        width: 55px;
+        height:8px;
+        font-size: 12px;
+    }
+    #pswd_info{
+        visibility: hidden;
+        position: absolute;
+        height: 160px;
+        width: 130px;
+        margin-top: -10px;
+        margin-left:205px ;
+    }
+    #pswd_info ul{
+        margin-top: -65px;
+        margin-left: -30px;
+        width: 90px;
+
+    }
+    #pswd_info li{
+        margin-left: -19px;
+        display: inline-block;
+        width: 100px;
+        font-size: 8px;
+        line-height: 14pt;
+
+    }
+    .login #pswd_info svg {
+        width: 8px;
+    }
+    .login h4{
+        margin-top:1px;
+        font-size: 8px;
+    }
+    .login #lower{
+        height: 27px;
+        width: 190px;
+        margin-left:35px;
+        margin-top: 97px;
+        position: absolute;
+    }
+    .login button[id=registrarse]{
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+        margin-left: -50px;
+
+    }
+}
+
+
+

@@ -1,0 +1,50 @@
+
+#objeto{
+    overflow: hidden;
+    border: solid 2px black;
+    border-radius: 30px;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    font-size:20px;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#F5AC2D), to(#533A0D));
+}
+#objeto #id{
+border-bottom: black solid 1px;
+    padding-bottom: 10px;
+
+}
+#objeto ul{
+
+    text-align: center;
+    width: 200px;
+    list-style: none;
+}
+a #objeto li {
+    color: #0C090A;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+#objeto #carrito img {
+    width: 30px;
+}
+#objeto #fotoObjeto{
+    background: #0C090A;
+    margin-left: -40px;
+    width: 305px;
+    height: 300px;
+
+}
+#objeto #editar{
+    border-top: 1px solid #0C090A;
+    width: 190px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+
+}
+
+

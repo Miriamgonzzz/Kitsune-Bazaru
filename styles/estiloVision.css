@@ -1,0 +1,33 @@
+#vision{
+    background: #B3723B;
+    border: #0C090A solid 1px;
+    border-radius: 40px;
+    margin: auto;
+    padding: 10px;
+
+}
+#vision ul{
+    list-style: none;
+    text-align: center;
+
+}
+#vision li{
+    font-size: 40px;
+}
+#vision #nombre{
+    float: left ;
+    width: 35%;
+}
+#vision #unidades{
+    float: left;
+    width: 30%;
+}
+#vision #precio{
+    float: left;
+    width: 35%;
+}
+#vision #descripcion{
+    border-top: solid 2px black;
+    overflow: hidden;
+    width: 100%;
+}

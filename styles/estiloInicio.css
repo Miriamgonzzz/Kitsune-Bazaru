@@ -1,0 +1,188 @@
+#iniciar{
+    border: solid 1px black;
+    background: #DF9979;
+    overflow: hidden;
+
+}
+#contenedorLogin12{
+
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    display: grid;
+}
+
+form {
+    margin-top: 20px;
+}
+
+#contenedorLogin12 ul{
+    list-style: none;
+
+}
+#contenedorLogin12 li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+#contenedorLogin12 label {
+    color: black;
+    font-family:"Times New Roman", Georgia, sans-serif;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 24px;
+
+
+}
+
+#contenedorLogin12 input {
+    font-family: "Times New Roman", Georgia, sans-serif;
+    font-size: 12px;
+    outline: none;
+
+}
+
+#contenedorLogin12 input[name=user],
+#contenedorLogin12 input[name=pass]{
+    color: #743E10;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px
+}
+
+#contenedorLogin12 input:hover {
+    border: 1px solid #f5f7f8;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #FC7904;
+}
+
+#contenedorLogin12 input[name=user]:focus,
+#contenedorLogin12 input[name=pass]:focus{
+    border: 1px solid #f5f7f8;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #FC7904;
+}
+
+#contenedorLogin12 #Olviden {
+    text-decoration: none;
+    color: black;
+    float: bottom;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+#contenedorLogin12 #lower {
+    background:#DCAE89;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+    box-shadow: inset 0 1px 1px black;
+    border-top: 1px solid white;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#contenedorLogin12 button[id=loge] {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CC8664), to(#65412C));
+    /*background-image: -moz-linear-gradient(top left 90deg, #CC8664 0%, #65412C 100%);
+    background-image: linear-gradient(top left 90deg, #CC8664 0%, #65412C 100%);*/
+    border-radius: 30px;
+    border: 1px solid saddlebrown;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+#contenedorLogin12 button[id=loge]:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CC8664), to(#65412C));
+    /*background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);*/
+}
+
+#contenedorLogin12 button[id=loge]:active {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#65412C), to(#CC8664));
+    /*background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+    background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);*/
+}
+@media screen and (max-width: 525px) and (min-width: 350px){
+    #contenedorLogin12 li{
+        grid-template-columns: repeat(2, 75px 300px);
+    }
+    #contenedorLogin12 label {
+        font-size: 15px;
+        width: 70px;
+
+    }
+    #contenedorLogin12 #Olviden {
+        width: 300px;
+    }
+    #contenedorLogin12 input[name=user],
+    #contenedorLogin12 input[name=pass]{
+
+        width: 190px;
+        height: 25px;
+         }
+    #contenedorLogin12 #lower {
+        margin-left: 10px;
+        width: 320px;
+        height: 69px;
+    }
+
+    #contenedorLogin12 button[id=loge] {
+
+        width: 80px;
+        height: 30px;
+
+    }
+    }
+@media screen and (max-width: 350px) and (min-width: 280px){
+
+    #contenedorLogin12 li{
+        grid-template-columns: repeat(2, 60px 300px);
+    }
+    #contenedorLogin12 label {
+        font-size: 12px;
+        width: 50px;
+
+    }
+    #contenedorLogin12 #Olviden {
+        margin-left: -40px;
+        font-size: 12px;
+        width: 300px;
+    }
+    #contenedorLogin12 input[name=user],
+    #contenedorLogin12 input[name=pass]{
+
+        width: 130px;
+        height: 20px;
+    }
+    #contenedorLogin12 #lower {
+        margin-left: 10px;
+        width: 250px;
+        height: 55px;
+    }
+
+    #contenedorLogin12 button[id=loge] {
+        margin-top: 10px;
+        font-size: 12px;
+        width: 80px;
+        height: 30px;
+
+    }
+}
+
+
